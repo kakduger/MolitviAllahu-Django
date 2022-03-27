@@ -6,3 +6,6 @@ def initPage(request):
     
 def aboutPage(request):
     return HttpResponse("about")
+
+def players(request):
+    return HttpResponse("NBA")
