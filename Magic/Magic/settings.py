@@ -58,7 +58,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            "welcomeup/teamplates"
+            "welcomeup/teamplates",
+            "nbaplayers/teamplates"
         ],
         'APP_DIRS': True,
         'OPTIONS': {
