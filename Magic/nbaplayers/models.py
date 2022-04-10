@@ -9,4 +9,4 @@ class NBAplayer(models.Model):
     dvushki = models.IntegerField(default=0)
     blizniki = models.IntegerField(default=0)
     vsesrazu = models.IntegerField(default=0)
-    bio = models.CharField(max_length=150)
+    bio = models.CharField(max_length=999)

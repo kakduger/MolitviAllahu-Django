@@ -6,7 +6,7 @@
     <body  bgcolor="#000000">
         <h1 style="color: #e7c91b;">Best recent NBA players</h1>
         {% for currrent in players %}
-        <a style="color: #e7c91b;" href="{% url 'Current Player' %}">{{ currrent.playersname }}</a>
+        <li><a style="color: #e7c91b;" href="{% url 'Current_Player' playersname=currrent.playersname  %}">{{ currrent.playersname }}</a></li>>
         {% endfor %}
     </body>
 </html>
